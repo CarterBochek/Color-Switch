@@ -1,0 +1,55 @@
+body {
+    margin: auto;
+    background-color: mediumspringgreen;
+}
+a {
+    text-decoration: none;
+}
+header {
+    /* position: fixed; */
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(24, 24, 24, 0.986);
+    color: white;
+    border-bottom: 2px solid mediumaquamarine;
+}
+h1 {
+    padding: 1%;
+    margin: auto;
+}
+h2 {
+    padding: 2%;
+    max-height: 3vh;
+    background-color: black;
+    border-radius: 2em;
+    margin-top: 30vh;
+    color: mediumaquamarine;
+}
+.button-aesthetic {
+    border: none;
+    border-radius: 2%;
+    background-color: #222331;
+    border-bottom: 2px solid rgb(0, 238, 255);
+    height: 5vh;
+    width: 10vw;
+    color: white;
+    margin: 5vh 5vw 0vh 5vw;
+    margin-top: 5vh;
+    margin-right: 5vw;
+    box-shadow: 1px black;
+    /* padding: 1%; */
+}
+button:hover {
+    background-color: white;
+    color: rgb(8, 107, 255)
+}
+button:active {
+    background-color: rgb(233, 233, 233);
+}
+main {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
